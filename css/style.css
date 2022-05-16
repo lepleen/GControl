@@ -1,0 +1,134 @@
+/*RESET CSS*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #282828ff;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/*INICIO DOS ESTILOS*/
+
+/*menu*/
+
+
+
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu a {
+  background: #343434ff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #00d455ff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*Conteudo*/
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  color: #939393ff;
+
+}
+
+.introducao {
+  background: #343434ff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 10px;
+  align-content: center;
+  justify-items: end;
+}
+
+.introducao h1{
+  color: #2a2affff;
+  font-size: 3rem;
+
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #00d455ff;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  
+}
+
+.botao {
+  background: #2a2affff;
+  color: #ffff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #2a2affff;
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.vantagens {
+  background: #343434ff;  
+}
+
+.vantagens-item h3 {
+  color: #00d455ff;
+}
+
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 40px;
+}
+
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  color: #939393ff;
+  background: #343434ff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}

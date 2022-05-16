@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="80"
+   viewBox="0 0 52.916665 21.166667"
+   version="1.1"
+   id="svg22928"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="gcontrol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22930"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.1055815"
+     inkscape:cx="290.89351"
+     inkscape:cy="88.336642"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs22925">
+    <rect
+       x="-7.4163737"
+       y="-11.203668"
+       width="171.15489"
+       height="55.151837"
+       id="rect4334" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.3014295,0,0,0.3014295,4.3287909,9.0114921)"
+       id="text4332"
+       style="font-style:normal;font-weight:normal;font-size:30.4291px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4334);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-7.4160156"
+         y="15.75855"
+         id="tspan61399"><tspan
+           style="font-weight:bold;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans Bold';fill:#0066ff"
+           id="tspan61393">GC</tspan><tspan
+           style="font-weight:bold;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans Bold';fill:#00d455"
+           id="tspan61395">ON</tspan><tspan
+           style="font-weight:bold;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans Bold';fill:#ffffff"
+           id="tspan61397">TROL</tspan></tspan></text>
+  </g>
+</svg>
