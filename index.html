@@ -3,13 +3,14 @@
 <head>
   <meta charset="UFT-8" />
   <title>GControl</title>
+  <meta name="viewport" content="width=width-device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
 
   <!-- MENUDO SITE-->
-  <header class="topo">
+  <header class="header">
     <img src="./img/gcontrol.svg" alt="Gcontrol">
     <nav aria-label="primaria">
       <ul class="menu">
@@ -23,42 +24,46 @@
 
   <!--PRIMEIRA PARTE-->
 
-  <div class="conteudo">
-    <div class="introducao">
-      <span class="detalhe"></span>
-      <h1>Lorem Ipsum </h1>
-      <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      <a href="/" class="botao">Ver mais</a>
-    </div>
-
-    <img src="./img/bicicleta.jpg" alt="gcontrolnews" />
-
-    <h2 class="subtitulo">GControl noticias do universo gamer.</h2>
-
-    <div class="vantagens">
-      <div class="vantagens-item">
-        <img src="./img/eletrica.svg" alt="" />
-        <h3>Lorem Ipsum1</h3>
-        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <main>
+    <article class="conteudo">
+      <div class="introducao" aria-labelledby="label-introducao">
+        <h1 id="label-introducao">Lorem Ipsum </h1>
+        <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <a href="/" class="botao">Ver mais</a>
       </div>
-      <div class="vantagens-item">
-        <img src="./img/velocidade.svg" alt="" />
-        <h3>Lorem Ipsum1</h3>
-        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <div class="introducao-cover">
+        <img src="./img/bicicleta.jpg" alt="gcontrolnews" />
       </div>
-      <div class="vantagens-item">
-        <img src="./img/rastreador.svg" alt="" />
-        <h3>Lorem Ipsum1</h3>
-        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </div>
-    </div>
-  </div>
+    </article>
+
+    <article class="conteudo conteudo-vantagem" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="vantagens">GControl Portal gamer.</h2>
+
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <img src="./img/eletrica.svg" alt="" />
+          <h3>Lorem Ipsum1</h3>
+          <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="./img/velocidade.svg" alt="" />
+          <h3>Lorem Ipsum1</h3>
+          <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="./img/rastreador.svg" alt="" />
+          <h3>Lorem Ipsum1</h3>
+          <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </li>
+      </ul>
+    </article>
+  </main>
 
 
   <!--RODAPE-->
-  <div class="rodape">
+  <footer class="rodape">
     <p>GControl todos os dirietos reservados.</p>
-  </div>
+  </footer>
 
 
 
